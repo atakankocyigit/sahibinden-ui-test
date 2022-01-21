@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NegativeLoginTestSuite" verbose="1">
+
+	<test name="NegativeLoginTest">
+		<parameter name="username" value="incorrectUsername"></parameter>
+		<parameter name="password" value="SuperSecretPassword!"></parameter>
+		<classes>
+			<class name="com.sahibinden.loginpagetest.NegativeLoginTest"></class>
+		</classes>
+	</test>
+
+</suite>

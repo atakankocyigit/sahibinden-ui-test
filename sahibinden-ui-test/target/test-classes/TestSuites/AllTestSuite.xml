@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AllTestSuite" verbose="1" parallel="tests" thread-count="4">
+
+	<test name="NegativeLoginTest">
+		<parameter name="username" value="incorrectUsername"></parameter>
+		<parameter name="password" value="SuperSecretPassword!"></parameter>
+		<classes>
+			<class name="com.sahibinden.loginpagetest.NegativeLoginTest"></class>
+		</classes>
+	</test>
+
+	<test name="CarFilterTest">
+		<classes>
+			<class name="com.sahibinden.carfilterpagetest.CarFilterTest"></class>
+		</classes>
+	</test>
+
+</suite>

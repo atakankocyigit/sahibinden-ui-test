@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CarFilterTestSuite" verbose="1" parallel="tests" thread-count="4">
+
+	<test name="CarFilterTest">
+		<classes>
+			<class name="com.sahibinden.carfilterpagetest.CarFilterTest"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,9 @@
+{
+  "minPrice":350000,
+  "maxPrice":550000,
+  "minYear":2012,
+  "maxYear":2018,
+  "minKm":10000,
+  "maxKm":200000,
+  "color":5
+}
